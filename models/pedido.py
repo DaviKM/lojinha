@@ -1,5 +1,5 @@
 from pydantic import BaseModel, Field, field_validator
 
-class Marca(BaseModel):
-    nome : str
-    pais : str
+class Pedido(BaseModel):
+    cliente_id: id
+    
